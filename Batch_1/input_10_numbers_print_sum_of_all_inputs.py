@@ -7,4 +7,7 @@ for inputs in range (10):
     summation.append(inputs)
 
 # add all numbers in the list
+result_summation = sum(summation)
+
 # print results
+print(f"The sum of all 10 numbers is equal to {result_summation}")
