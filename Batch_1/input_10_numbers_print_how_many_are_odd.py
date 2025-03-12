@@ -13,3 +13,4 @@ for i in range (10):
         even_numbers.append(inputs)
 
 # count and print the amount off odd numbers in the list
+print(f"The amount of odd numbers is {len(odd_numbers)}")
