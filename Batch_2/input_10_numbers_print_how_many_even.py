@@ -10,7 +10,5 @@ for i in range(10):
     else:
         odd_list.append(numbers)
 
-print(even_list)
-print(odd_list)
-
 # print the amount of values stored in evens list
+print(f"The amount of even numbers inputted is {len(even_list)}")
