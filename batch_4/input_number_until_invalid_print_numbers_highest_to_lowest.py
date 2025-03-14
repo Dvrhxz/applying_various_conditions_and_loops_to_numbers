@@ -9,5 +9,8 @@ while True:
     # when invalid stop asking input
     except ValueError:
         # print sorted list
+        print("The numbers sorted from highest to lowest is as follows:")
+        print(sorted(numbers_list, reverse= True))
+
         # end program
         break
