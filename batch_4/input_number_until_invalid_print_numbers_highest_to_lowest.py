@@ -1,4 +1,13 @@
 # input numbers until invalid and store to list
-# when invalid stop asking in
-# print sorted list
-# end program
+numbers_list = []
+
+while True:
+    try:
+        number = int(input("Input a number: "))
+        numbers_list.append(number)
+
+    # when invalid stop asking input
+    except ValueError:
+        # print sorted list
+        # end program
+        break
